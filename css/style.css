@@ -172,10 +172,9 @@ body {
 }
 
 #a{
-	height: 100vh;
+	height: 980px;
 	background: linear-gradient(to right, #0575e6, #021b79);
-    position:fixed;
-    color:red;
+    position:static;
     top:0;
     z-index:-99;
 }
