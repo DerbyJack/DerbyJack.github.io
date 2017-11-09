@@ -273,6 +273,12 @@ footer {
 		color: #033193;
 	}
 	
+	.skills img {
+		width: 50%;
+		display: block;
+		margin: 5%;
+	}
+	
 	.socials li {
 	display: none;
 	}
@@ -304,12 +310,6 @@ footer {
 	
 	.compressed .icon-bar {
 		border:1px solid #fff;
-	}
-	
-	.skills img {
-		width: 66%;
-		display: block;
-		margin: 5%;
 	}
 	
     }
