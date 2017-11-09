@@ -264,10 +264,6 @@ footer {
 		margin-top:0%;
 	}
 	
-	.scroll {
-		display: none;
-	}
-	
 	.skills-text h1 {
 		font-size: 2em;
 	}
@@ -315,6 +311,10 @@ footer {
 		width: 50%;
 		display: block;
 		margin: 5%;
+	}
+	
+	.scroll {
+		display: none;
 	}
 	
     }
