@@ -270,7 +270,6 @@ footer {
 	
 	.skills-text h1 {
 		font-size: 2em;
-		color: #033193;
 	}
 	
 	.skills img {
@@ -323,11 +322,6 @@ footer {
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
 	
-	.skills img {
-		width: 50%;
-		display: block;
-		margin: 5%;
-	}
 	
     }
 
