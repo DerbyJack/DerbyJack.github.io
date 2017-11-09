@@ -174,7 +174,7 @@ body {
 #a{
 	height: 980px;
 	background: linear-gradient(to right, #0575e6, #021b79);
-    position:static;
+    position: fixed;
     top:0;
     z-index:-99;
 }
