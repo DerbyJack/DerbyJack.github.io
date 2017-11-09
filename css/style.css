@@ -172,7 +172,7 @@ body {
 }
 
 #a{
-	height: 980px;
+	height: 100vh;
 	background: linear-gradient(to right, #0575e6, #021b79);
     position: fixed;
     top:0;
