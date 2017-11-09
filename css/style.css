@@ -308,7 +308,16 @@ footer {
 	
     }
 
-
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+	
+	.skills img {
+		width: 66%;
+		display: block;
+		margin: 5%;
+	}
+	
+    }
 
 
 
