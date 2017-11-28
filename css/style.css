@@ -215,7 +215,6 @@ body {
 }
 
 #c{
-	width: 100%;
 	background: #eea849;
 }
 
@@ -252,8 +251,9 @@ body {
 
 #about {
 	background: #fff;
-	height: 50vh;
 }
+
+
 
 #d{
 	margin: 0;
@@ -344,6 +344,7 @@ footer {
 	
     }
 
+	
 
 
 
