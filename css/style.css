@@ -117,9 +117,10 @@ body {
 }
 
 .hero-text h1 {
+	font-family: 'Titillium Web', sans-serif;
 	line-height: 0.9em;
 	font-size: 8em;
-	font-weight: 700;
+	font-weight: 900;
 }
 
 .scroll {
