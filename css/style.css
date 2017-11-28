@@ -117,6 +117,7 @@ body {
 }
 
 .hero-text h1 {
+	line-height: 0.9em;
 	font-size: 128px;
 	font-weight: 700;
 }
