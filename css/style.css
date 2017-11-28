@@ -117,11 +117,10 @@ body {
 }
 
 .hero-text h1 {
-	line-height: 0.9em;
+	line-height: 0.5em;
 	font-size: 8em;
 	font-weight: 900;
 	text-transform: uppercase;
-	letter-spacing: 0.3em;
 }
 
 .scroll {
