@@ -118,7 +118,7 @@ body {
 
 .hero-text h1 {
 	line-height: 0.9em;
-	font-size: 128px;
+	font-size: 8em;
 	font-weight: 700;
 }
 
@@ -264,7 +264,7 @@ body {
 footer {
 	height: 20vh;
 	width: 100%;
-	background: red;
+	background: #fff;
 }
 
 /* Medium Devices, Desktops */
