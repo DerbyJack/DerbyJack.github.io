@@ -121,6 +121,8 @@ body {
 	line-height: 0.9em;
 	font-size: 8em;
 	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
 }
 
 .scroll {
