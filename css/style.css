@@ -181,13 +181,13 @@ body {
 
 #b{
    margin-top: 50%;
-   background: #fff;
+   background: #F7F7F7;
 }
 
 .skills {
 	width: 60%;
 	border-radius: 0;
-    border-bottom: solid 2px rgba(5, 5, 5, 0.2);
+    border-bottom: solid 1px rgba(5, 5, 5, 0.2);
     margin: auto;
 	padding-bottom: 4%;
 }
@@ -274,7 +274,7 @@ body {
 footer {
 	height: 20vh;
 	width: 100%;
-	background: #fff;
+	background: #313131;
 }
 
 /* Medium Devices, Desktops */

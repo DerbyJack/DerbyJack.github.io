@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     $(window).on('scroll', function () {
-        if ($(window).scrollTop() >= 20) {
+        if ($(window).scrollTop() >= 800) {
             $('.navbar').addClass('compressed');
         } else {
             $('.navbar').removeClass('compressed');
@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
 	
 	$(window).on('scroll', function () {
-        if ($(window).scrollTop() >= 20) {
+        if ($(window).scrollTop() >= 800) {
             $('.header').addClass('fixed');
         } else {
             $('.header').removeClass('fixed');
