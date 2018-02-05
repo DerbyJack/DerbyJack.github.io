@@ -223,7 +223,6 @@ body {
 .showcase {
 	width: 60%;
 	margin: auto;
-	height: 100vh;
 	border-radius: 0;
     border-bottom: solid 2px rgba(5, 5, 5, 0.2);
 }
