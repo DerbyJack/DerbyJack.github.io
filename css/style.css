@@ -80,12 +80,12 @@ body {
 }
 
 .navbar.compressed #contact {
-	background: #0575e6;
+	background: #021b79;
 	border-radius: 10px;
 }
 
 .navbar.compressed #contact:hover {
-	background: rgba(255, 255, 255, 0.2);
+	background: #0575e6;
 }
 
 .icon-bar
@@ -233,7 +233,7 @@ body {
 
 .carousel{
 	margin: 5vh auto;
-	padding: 5% 0 8% 0;
+	padding: 5% 0 7% 0;
 }
 
 .carousel .item img{
