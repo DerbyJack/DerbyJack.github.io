@@ -69,7 +69,7 @@ $(document).ready(function () {
 	$("#insta").animate({marginTop: "10"}, 175);
 	});
 	
-	$(".selector img").mouseleave(function(){
+	$(".selector img").click(function(){
 	$(".selector img").animate({opacity: "1.0"}, 175);
 	});
 });       
