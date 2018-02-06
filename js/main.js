@@ -70,7 +70,8 @@ $(document).ready(function () {
 	});
 	
 	$(".selector img").click(function(){
-        $(this).hide();
-    });
+        $(this).animate({
+            opacity: '1.0',
+        });
 });       
 
