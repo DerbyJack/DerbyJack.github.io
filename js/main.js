@@ -17,12 +17,12 @@ $(document).ready(function () {
     });
 	
 	$(".scroll").click(function() {
-    $('html, body').animate({
+    	$('html, body').animate({
         scrollTop: $("#b").offset().top -100 }, 2500);
 	});
 	
 	$(".scroll").hover(function(){
-    $(".scroll").animate({marginTop: "20"});
+    	$(".scroll").animate({marginTop: "20"});
 	$(".scroll").animate({marginTop: "0"});
 	$(".scroll").animate({marginTop: "20"});
 	$(".scroll").animate({marginTop: "0"});
@@ -34,27 +34,27 @@ $(document).ready(function () {
 	});
 	
 	$("#ski").click(function() {
-    $('html, body').animate({
+	$('html, body').animate({
         scrollTop: $("#b").offset().top -100 }, 2000);
 	});
 	
 	$("#por").click(function() {
-    $('html, body').animate({
+    	$('html, body').animate({
         scrollTop: $("#c").offset().top -100 }, 2000);
 	});
 	
 	$("#abo").click(function() {
-    $('html, body').animate({
+    	$('html, body').animate({
         scrollTop: $("#about").offset().top -100 }, 2000);
 	});
 	
 	$("#contact").click(function() {
-    $('html, body').animate({
+   	$('html, body').animate({
         scrollTop: $("#d").offset().top -100 }, 2000);
 	});
 	
 	$("#linked").hover(function(){
-    $("#linked").animate({marginBottom: "20"});
+    	$("#linked").animate({marginBottom: "20"});
 	});
 	
 	$("#linked").mouseleave(function(){
@@ -62,11 +62,15 @@ $(document).ready(function () {
 	});
 	
 	$("#insta").hover(function(){
-    $("#insta").animate({marginTop: "20"});
+    	$("#insta").animate({marginTop: "20"});
 	});
 	
 	$("#insta").mouseleave(function(){
 	$("#insta").animate({marginTop: "10"}, 175);
 	});
+	
+	$(".selector img").click(function(){
+        $(this).hide();
+    });
 });       
 
