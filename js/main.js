@@ -69,9 +69,8 @@ $(document).ready(function () {
 	$("#insta").animate({marginTop: "10"}, 175);
 	});
 	
-	$(".selector img").click(function(){
-        $(this).animate({
-            opacity: '1.0',
-        });
+	$(".selector img").mouseleave(function(){
+	$(".selector img").animate({opacity: "1.0"}, 175);
+	});
 });       
 
