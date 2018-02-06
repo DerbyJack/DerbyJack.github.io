@@ -72,8 +72,11 @@ $(document).ready(function () {
 	 $('.selector li').click(function() {
       	$(this).siblings().removeClass('active');
       	$(this).addClass('active');
-
-
-});
+	});
+	
+	$('.examples ul li').click(function(){
+	$(this).parent().addClass('current').siblings().removeClass('current')	
+	})
+	
 });       
 
