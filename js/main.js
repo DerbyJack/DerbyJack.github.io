@@ -69,8 +69,20 @@ $(document).ready(function () {
 	$("#insta").animate({marginTop: "10"}, 175);
 	});
 	
-	$(".selector img").click(function(){
-	$(".selector img").animate({opacity: "1.0"}, 175);
+	$("#sel1").click(function(){
+	$(this).animate({opacity: "1.0"}, 175);
+	});
+	
+	$("#sel2").click(function(){
+	$(this).animate({opacity: "1.0"}, 175);
+	});
+	
+	$("#sel3").click(function(){
+	$(this).animate({opacity: "1.0"}, 175);
+	});
+	
+	$("#sel4").click(function(){
+	$(this).animate({opacity: "1.0"}, 175);
 	});
 });       
 
