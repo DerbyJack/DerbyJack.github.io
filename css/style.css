@@ -247,9 +247,8 @@ body {
 		opacity: 0.6;
 }
 
-.active {
+.examples img {
 	opacity: 1.0;
-	background: #fff;
 }
 
 .selector-text h1 {
