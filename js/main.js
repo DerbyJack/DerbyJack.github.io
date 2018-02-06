@@ -68,6 +68,12 @@ $(document).ready(function () {
 	$("#insta").mouseleave(function(){
 	$("#insta").animate({marginTop: "10"}, 175);
 	});
+	
+	 $('.selector a').click(function() {
+      	$(this).siblings().removeClass('active');
+      	$(this).addClass('active');
 
+
+});
 });       
 
