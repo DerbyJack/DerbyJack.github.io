@@ -80,7 +80,7 @@ body {
 }
 
 .navbar.compressed #contact {
-	background: #021b79;
+	background: #ff9900;
 	border-radius: 10px;
 }
 
@@ -127,10 +127,6 @@ body {
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.scroll a:hover {
-	opacity: 0.33;
 }
 
 .socials {
@@ -225,6 +221,7 @@ body {
 }
 
 .showcase {
+	height: 60vh;
 	width: 60%;
 	margin: auto;
 	border-radius: 0;

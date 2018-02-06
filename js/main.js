@@ -21,25 +21,52 @@ $(document).ready(function () {
         scrollTop: $("#b").offset().top -100 }, 2500);
 	});
 	
+	$(".scroll").hover(function(){
+    $(".scroll").animate({marginTop: "20"});
+	$(".scroll").animate({marginTop: "0"});
+	$(".scroll").animate({marginTop: "20"});
+	$(".scroll").animate({marginTop: "0"});
+	});
+	
+	
+	$(".scroll").mouseleave(function(){
+	$(".scroll").animate({marginTop: "0"});
+	});
+	
 	$("#ski").click(function() {
     $('html, body').animate({
-        scrollTop: $("#b").offset().top -100 }, 2500);
+        scrollTop: $("#b").offset().top -100 }, 2000);
 	});
 	
 	$("#por").click(function() {
     $('html, body').animate({
-        scrollTop: $("#c").offset().top -100 }, 1750);
+        scrollTop: $("#c").offset().top -100 }, 2000);
 	});
 	
 	$("#abo").click(function() {
     $('html, body').animate({
-        scrollTop: $("#about").offset().top -100 }, 1750);
+        scrollTop: $("#about").offset().top -100 }, 2000);
 	});
 	
 	$("#contact").click(function() {
     $('html, body').animate({
-        scrollTop: $("#d").offset().top -100 }, 1250);
+        scrollTop: $("#d").offset().top -100 }, 2000);
 	});
-
+	
+	$("#linked").hover(function(){
+    $("#linked").animate({marginBottom: "20"});
+	});
+	
+	$("#linked").mouseleave(function(){
+	$("#linked").animate({marginBottom: "10"});
+	});
+	
+	$("#insta").hover(function(){
+    $("#insta").animate({marginTop: "20"});
+	});
+	
+	$("#insta").mouseleave(function(){
+	$("#insta").animate({marginTop: "10"}, 175);
+	});
 });       
 
