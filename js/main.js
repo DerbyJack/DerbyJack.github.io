@@ -69,7 +69,7 @@ $(document).ready(function () {
 	$("#insta").animate({marginTop: "10"}, 175);
 	});
 	
-	 $('.selector a').click(function() {
+	 $('.selector li').click(function() {
       	$(this).siblings().removeClass('active');
       	$(this).addClass('active');
 
