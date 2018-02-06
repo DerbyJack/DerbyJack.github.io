@@ -244,10 +244,11 @@ body {
 }
 
 .selector img:hover {
-		width: 52%;
-		display: block;
-		margin: 1%;
 		opacity: 0.75;
+}
+
+.selector img:active {
+		opacity: 1.0;
 }
 
 .selector-text h1 {
