@@ -22,7 +22,7 @@ $(document).ready(function () {
 	});
 	
 	$(".scroll").hover(function(){
-    	$(".scroll").animate({marginTop: "20"});
+    $(".scroll").animate({marginTop: "20"});
 	$(".scroll").animate({marginTop: "0"});
 	$(".scroll").animate({marginTop: "20"});
 	$(".scroll").animate({marginTop: "0"});
@@ -54,7 +54,7 @@ $(document).ready(function () {
 	});
 	
 	$("#linked").hover(function(){
-    	$("#linked").animate({marginBottom: "20"});
+    $("#linked").animate({marginBottom: "20"});
 	});
 	
 	$("#linked").mouseleave(function(){
@@ -62,16 +62,17 @@ $(document).ready(function () {
 	});
 	
 	$("#insta").hover(function(){
-    	$("#insta").animate({marginTop: "20"});
+    $("#insta").animate({marginTop: "20"});
 	});
 	
 	$("#insta").mouseleave(function(){
 	$("#insta").animate({marginTop: "10"}, 175);
 	});
 	
-	$('.examples ul li').click(function(){
-	$(this).parent().addClass('current').siblings().removeClass('current')	
-	})
+	$('.examples li').on('click', function(){
+    $('.examples li').removeClass('current');
+    $(this).addClass('current');
+});
 	
 });       
 
