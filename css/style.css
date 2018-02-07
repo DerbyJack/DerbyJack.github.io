@@ -265,7 +265,7 @@ body {
 	text-align: left;
 }
 
-#home img {
+#home a img {
     	display: block;
 	margin-top: 3%;
    	margin-left: auto;
