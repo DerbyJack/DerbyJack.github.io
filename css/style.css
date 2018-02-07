@@ -265,7 +265,28 @@ body {
 	text-align: left;
 }
 
-#home, #menu1, #menu2, #menu3 img {
+#home img {
+    	display: block;
+	margin-top: 4%;
+   	margin-left: auto;
+    	margin-right: auto;
+}
+
+#menu1 img {
+    	display: block;
+	margin-top: 4%;
+   	margin-left: auto;
+    	margin-right: auto;
+}
+
+#menu2 img {
+    	display: block;
+	margin-top: 4%;
+   	margin-left: auto;
+    	margin-right: auto;
+}
+
+#menu3 img {
     	display: block;
 	margin-top: 4%;
    	margin-left: auto;
