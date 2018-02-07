@@ -271,10 +271,6 @@ body {
     margin-right: auto;
 }
 
-#home {
-	background: pink url("img_tree.gif") no-repeat fixed center;
-}
-
 #about {
 	height: 100vh;
 	background: #fff;
