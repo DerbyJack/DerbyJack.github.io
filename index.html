@@ -166,10 +166,10 @@
 			<div class="row">
 				<div class="col-xs-4 col-md-2"></div>
 				<ul class="examples" style="list-style-type:none">
+				<li><div class="col-xs-4 col-md-2"><a data-toggle="tab" href="#menu2"><img id="sel3" src=""></a></div></li>
 				<li class="current"><div class="col-xs-4 col-md-2"><a data-toggle="tab" href="#home"><img id="sel1" src="perfectcare.png"></a></div></li>
 				<li><div class="col-xs-4 col-md-2"><a data-toggle="tab" href="#menu1"><img id="sel2" src="SWMS.png"></a></div></li>
-				<li><div class="col-xs-4 col-md-2"><a data-toggle="tab" href="#menu2"><img id="sel3" src="tbc.png"></a></div></li>
-				<li><div class="col-xs-4 col-md-2"><a data-toggle="tab" href="#menu3"><img id="sel4" src="tbc.png"></a></div></li>
+				<li><div class="col-xs-4 col-md-2"><a data-toggle="tab" href="#menu3"><img id="sel4" src=""></a></div></li>
 				</ul>	
 				<div class="col-xs-4 col-md-2"></div>
 			</div>
@@ -191,8 +191,32 @@
 	
 	
 	</div>
-    <div id="d" class="panels">Scrolling-Panel 3</div>
+    <div id="d" class="panels">Scrolling-Panel 3
+	
+		<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
 </div>
+	</div>
 
 <footer>
 </footer>
