@@ -4,20 +4,25 @@
 
   <head>
     
+    <link href="https://fonts.googleapis.com/css?family=Slackey" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="css/Little Legs.css">
+    <link rel="stylesheet" href="little legs.css">
 	
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 		
   </head>
   
   <body>
   
+  <script src="littleLegs.js">
+  </script>
+  
   <div class="container-fluid text-center box">
-    <h1>Stuff what Mo says...</h1>
-    <hr></hr>
+    <img src="stuffwhat.png"/>
+	<div class="main">
     <p>Don't try and understand, just marvel at the beauty of Muhammed's mind...</p>
-    <button class="inspire" type="submit">ENLIGHTEN ME!</button>
+    <button class="inspire" type="submit">quote me!</button>
     <br/>
     <div class="row quotesctn">
 	  <div class="hidden-sm col-md-2"> 
@@ -31,14 +36,14 @@
 	<div class="row quotesctn">
       <div class="col-md-12 author"></div>
 	</div>
-     
+    </div>
     </div>
   </div>
   
   <script>
     $(document).ready(function(){
   
-    var quotes = ["I was so bored once, I read a sign", "The first heart attack isn't the worst, is it?", "What's a tumbleweed?", "How many polar bears has he killed with that hard drive?!", "You said the f - fucking bomb", "Have you ever had a crocodile vegetable?", "Shit! In backward", "how hard can it be to drive an ambulance compared to your normal car?", "I'm trying to rob a bank... it's not going well", "I tried to drown myself once to see what would happen", "it sounds like the ocean has more weapons of mass destruction than anyone at the minute", "I got food poisoning so now I'm going to get ebola", "Can we plant this next door? It's become a wildlife", "I run to the toilet, so I don't run out of any sleep", "What do you call a duck on crack... ....I can't remember", "It's like an underwater zoo for people" ];
+    var quotes = ["I was so bored once, I read a sign", "The first heart attack isn't the worst, is it?", "What's a tumbleweed?", "How many polar bears has he killed with that hard drive?!", "You said the f - f***ing bomb", "Have you ever had a crocodile vegetable?", "S**t! In backward", "how hard can it be to drive an ambulance compared to your normal car?", "I'm trying to rob a bank... it's not going well", "I tried to drown myself once to see what would happen", "it sounds like the ocean has more weapons of mass destruction than anyone at the minute", "I got food poisoning so now I'm going to get ebola", "Can we plant this next door? It's become a wildlife", "I run to the toilet, so I don't run out of any sleep", "What do you call a duck on crack... ....I can't remember", "It's like an underwater zoo for people" ];
     var authors = ["mid-way through a conversation about waiting in traffic", "when discussing ways to die", "After a standard Muhammed joke went down about as well as normal", "outraged at the size of storage on the Environment Manager's laptop", "appalled at the language in the office", "he meant a gourd", "as he slowly fell backwards off his chair", "talking about applying for his C1 licence", "one of his finest investment ideas", "the reason he is no longer allowed in public swimming pools", "in light of the Korean missile launches", "a reasonable diagnosis from dr mo", "whilst holding a large potted plant", "when talking about waking up in the middle of the night", "another well executed mo joke....it was Quack-head", "When describing an Aquarium"];
     var randomNumber;
     var randomQuote;

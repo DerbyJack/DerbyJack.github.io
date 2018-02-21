@@ -1,0 +1,75 @@
+body{
+	background: #fff url("background.png") no-repeat fixed center; 
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+}
+
+.box {
+	width: 75%;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	border-radius:  8px;  
+}
+
+.main {
+	margin-top: 5vh;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 1.6em;
+	padding: 10px;
+	position: relative;
+	color: #fff;
+	text-transform: lowercase;
+}
+
+.inspire {
+  background-color: #f2335e;
+  border-radius: 5px;
+  color: #fff;
+  width: 285px;
+  height: 55px;
+  padding:8px;
+  font-size: 30px;
+  transition-duration: .8s;
+  text-align: center;
+  position: relative;
+  font-family: Slackey, cursive;
+  text-transform: uppercase;
+  font-size: 1.8em;
+}
+
+.quotesctn {
+  margin-top: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.quote {
+	color: #fff;
+	font-weight: 900;
+	font-family: Slackey, cursive;
+	font-size: 3em;
+	letter-spacing: 2px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+.author {
+	margin-top: 5vh;
+	font-family: sans-serif;
+	font-size: 1.6em;
+	color: #ff8c1a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.rquote img {
+	margin-top: 150px;
+}
