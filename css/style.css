@@ -86,7 +86,6 @@ img {
 }
 
 .navbar.compressed #contact {
-	background: #0575e6;
 	border-radius: 10px;
 }
 
@@ -175,10 +174,33 @@ img {
 
 #a{
 	height: 100vh;
-	background: linear-gradient(to right, #0575e6, #021b79);
     position: fixed;
     top:0;
     z-index:-99;
+}
+
+.blueback {
+	background: linear-gradient(to right, #0575e6, #021b79);
+}
+
+.redback {
+	background: linear-gradient(to right, #42275a, #734b6d);
+}
+
+.yellowback {
+	background: linear-gradient(to right, #f09819, #edde5d);
+}
+
+.bluecontact {
+	background: #0575e6;
+}
+
+.redcontact {
+	background: #42275a;
+}
+
+.yellowcontact {
+	background: #edde5d;
 }
 
 #b{
@@ -328,7 +350,6 @@ img {
 #d{
 	position: relative;
 	min-height: 80vh;
-	background: linear-gradient(to right, #0575e6, #021b79);
 }
 
 #d .container {
@@ -385,99 +406,9 @@ label {
 footer {
 	height: 20vh;
 	width: 100%;
-	background: #313131;
+	background: #F7F7F7;
 }
 
-/* Medium Devices, Desktops */
-    @media only screen and (max-width : 1600px) {
-	#a{
-		position: static;
-		top:0;
-		z-index:-99;
-	}
-	
-	.hero-text h1 {
-		font-size: 6em;
-	}
-	
-	#b{
-		margin-top:0%;
-	}
-	
-	.skills-text h1 {
-		font-size: 1.5em;
-	}
-	
-	.skills img {
-		width: 50%;
-		display: block;
-		margin: auto;
-	}
-	    
-	.selector-text h1 {
-		font-size: 1.5em;
-	}
-	
-	.selector img {
-		width: 50%;
-		display: block;
-		margin: 5%;
-	}
-	
-	.socials li {
-	display: none;
-	}
-
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 850px) {
-		
-	.header {
-		background: linear-gradient(to right, #0575e6, #021b79);
-	}
-	
-	.hero-text h1 {
-		font-size: 4em;
-	}
-	
-	.navbar {
-		padding: 10px 0;
-	}
-
-	.navbar.compressed { 
-		padding: 5px 0;
-	}
-	
-	.navbar.compressed .left li a { 
-		color: #fff;
-	}
-	
-	.compressed .icon-bar {
-		border:1px solid #fff;
-	}
-	
-	.skills img {
-		width: 50%;
-		display: block;
-		margin: 5%;
-	}
-	
-	.scroll {
-		display: none;
-	}
-	
-	#home p, #menu1 p, #menu2 p, #menu3 p {
-	font-size: 1em;
-	}
-	
-    }
-
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 480px) {
-	
-	
-    }
 
 	
 
