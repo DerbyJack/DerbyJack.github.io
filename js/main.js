@@ -14,9 +14,9 @@ $(document).ready(function () {
         } else {
             $('.header').removeClass('fixed');
         }
-    });	
+    });		
 	
-	$(window).on('scroll', function () {
+		$(window).on('scroll', function () {
         if ($(window).scrollTop() >= 400) {
             $('#a').addClass('redback');
         } else {
@@ -24,12 +24,25 @@ $(document).ready(function () {
         }
     });	
 	
+			$(window).on('scroll', function () {
+        if ($(window).scrollTop() >= 3100) {
+			$('#d').removeClass('redback')
+            $('#d').addClass('blueback');
+        } else {
+			$('#d').addClass('redback');
+            $('#d').removeClass('blueback');
+        }
+    });	
+	
 	$(window).on('scroll', function () {
-		if ($(window).scrollTop() >= 1700) {   
-			$('.navbar.compressed #contact').addClass('yellowcontact');
-		} else {
-			$('.navbar.compressed #contact').removeClass('yellowcontact');
+		if ($(window).scrollTop() >= 3100) {
+			$('.navbar.compressed #contact').removeClass('redcontact');			
+			$('.navbar.compressed #contact').addClass('bluecontact');
+		} else if ($(window).scrollTop() >= 400) {
+			$('.navbar.compressed #contact').removeClass('bluecontact');
 			$('.navbar.compressed #contact').addClass('redcontact');
+		} else if ($(window).scrollTop() >= 200) {
+			$('.navbar #contact').removeClass('redcontact');
 		}
 	});
 	
@@ -56,9 +69,9 @@ $(document).ready(function () {
     });	
 	
 		$(window).on('scroll', function () {
-        if ($(window).scrollTop() >= 1700) {
-			$('#linked img').attr("src", "linked2.png");
-			$('#insta img').attr("src", "insta2.png");
+        if ($(window).scrollTop() >= 3100) {
+			$('#linked img').attr("src", "linked.png");
+			$('#insta img').attr("src", "insta.png");
         } else if ($(window).scrollTop() >= 400) {
 			$('#linked img').attr("src", "linked1.png");
 			$('#insta img').attr("src", "insta1.png");
