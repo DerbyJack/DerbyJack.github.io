@@ -60,7 +60,7 @@ img {
 }  
 
 .navbar.compressed .left li a { 
-	color: #033193;
+	color: #666;
 } 
 
 .nav li a {
@@ -90,7 +90,7 @@ img {
 }
 
 .navbar.compressed #contact:hover {
-	background: #0575e6;
+	background: #b30000;
 }
 
 .icon-bar
@@ -187,20 +187,12 @@ img {
 	background: linear-gradient(to right, #42275a, #734b6d);
 }
 
-.yellowback {
-	background: linear-gradient(to right, #f09819, #edde5d);
-}
-
 .bluecontact {
 	background: #0575e6;
 }
 
 .redcontact {
 	background: #42275a;
-}
-
-.yellowcontact {
-	background: #edde5d;
 }
 
 #b{
