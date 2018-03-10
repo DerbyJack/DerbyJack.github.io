@@ -34,7 +34,7 @@ img {
 
 .fixed {
     position: fixed;
-    background: white;
+    background: #fff;
     z-index: 999;
     width: 100%;
 	box-shadow: 0 4px 4px -2px rgba(5, 5, 5, 0.2);
