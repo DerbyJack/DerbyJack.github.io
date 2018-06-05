@@ -129,6 +129,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.backfont {
+	font-size: 7em;
+}
+
 .socials {
 	position: fixed;
 	text-align: center;
@@ -169,10 +173,13 @@ body {
 
 #a{
 	height: 100vh;
-	background: linear-gradient(to right, #0575e6, #021b79);
+	background-image: linear-gradient(to right, #0575e6, #021b79);
     position: fixed;
     top:0;
     z-index:-99;
+	background-size: auto 200%;
+	background-position: 0 100%;
+	transition: background-position 0.5s;
 }
 
 #b{
@@ -298,8 +305,6 @@ body {
 	height: 100vh;
 	background: #fff;
 }
-
-
 
 #d{
 	margin: 0;
